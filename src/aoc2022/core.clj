@@ -5,3 +5,4 @@
 
 (defn get-lines [fname] (string/split-lines (slurp fname)))
 
+(defn parse-int [s] (Integer/parseInt s))
